@@ -1,0 +1,46 @@
+# ╭─────────────────────────────────ImplementationGuide-fish.json──────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see:                                                                    │
+# │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: profiling-exercise
+canonical: http://example.org/fhir/healthall-tutorial
+version: 0.1.0
+name: IGTutorial
+title: Implementation Guide Tutorial
+status: draft
+publisher:
+  name: HealthAll Inc.
+  url: http://www.healthall.co.kr
+contact:
+  - name: 도형호
+    telecom:
+      - system: email
+        value: hhdo@healthall.co.kr
+  - name: 송준현
+    telecom:
+      - system: email
+        value: jhsong@healthall.co.kr
+  - name: 전형석
+    telecom:
+      - system: email
+        value: hsjeon@healthall.co.kr
+description: FSH와 Sushi, IG Publisher를 이용한 FHIR Resource Profiling과 Implementation Guide 생성 예제
+license: CC0-1.0
+fhirVersion: 4.0.1
+parameters:
+  apply-publisher: true
+  apply-contact: true
+  show-inherited-invariants: false
+copyrightYear: 2022+
+releaseLabel: ci-build
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  IG Home: index.html
+  Table of Contents: toc.html
+  Artifacts Summary: artifacts.html
+  Other Resources:
+    "FHIR Spec ": new-tab {{site.data.fhir.path}}index.html
