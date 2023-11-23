@@ -15,6 +15,12 @@
 <br/>
 <br/>
 <br/>
+
+### Artifacts
++ [Examples](examples.html)
++ [Package](downloads.html)
+
+<br/>
 ### FHIR Shorthand Resources
 1. [HL7 Confluence site](https://confluence.hl7.org/display/FHIRI/FHIR+Shorthand)
 
